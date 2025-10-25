@@ -1,15 +1,10 @@
 name: Example Workflow
 steps:
   - name: Say Hello
-    run: echo "Hello, world!"
+    run: echo "Helllo, world!"
 
   - name: Create a directory and a file
-    run: |
-      mkdir -p output
-      echo "Data generated" > output/data.txt
-      echo "Reading the file: "
-      cat output/data.txt
-
+    run: whoami
 
   - name: List files
     run:

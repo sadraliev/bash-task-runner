@@ -3,14 +3,11 @@
 
 #Step 1: Say Hello 
 
-echo "Hello, world!"
+echo "Helllo, world!"
 
 #Step 2: Create a directory and a file 
 
-mkdir -p output
-echo "Data generated" > output/data.txt
-echo "Reading the file: "
-cat output/data.txt
+whoami
 
 #Step 3: List files 
 
